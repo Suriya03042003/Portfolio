@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.skills_section{
+    width: 100%;
+    height: 70vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+    color: #e70606;
+}
+.skills_head h2 span{
+    color: #e70606;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+p{
+    color: rgb(7, 67, 119);
+}
+
+.html { width: 90%; } 
+.css  { width: 85%; } 
+.moon { width: 50%; } 
+.js   { width: 60%; } 
+.react{ width: 60%; } 
+.node { width: 60%; } 
+.express { width: 60%; } 
+.mongo{ width: 80%; } 
+
+ header{
+    padding:1%;
+    background-color:white;
+    display: flex;
+    font-family: sans-serif;
+    color: black;
+    margin: 0%;
+}
+header h2{
+    margin-left: 90px;
+}
+header nav .ull .lli {
+    list-style-type: none;
+    margin:10px 25px 0px 25px;
+    padding-bottom: 5px;
+}
+header nav .ull{
+    display: flex;
+    margin-left:18pc;
+}
+header nav .ull a{
+    text-decoration: none;
+    color: black;
+}
+header nav .uul a:visited{
+    color: black;
+}
+header nav .ull a:hover{
+    color: lightcoral;
+    border-bottom:15px;
+    padding-bottom: 5px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    width:fit-content;
+}
